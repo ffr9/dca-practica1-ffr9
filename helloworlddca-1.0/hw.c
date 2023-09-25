@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+void saludo2 (){
+  printf("Funcion saludo con FALLOS");
+}
+
 int
 main (int argc, char *argv[])
 {
@@ -11,6 +15,3 @@ main (int argc, char *argv[])
   return 0;
 }
 
-void saludo2 (){
-  printf("Funcion saludo con FALLOS");
-}
