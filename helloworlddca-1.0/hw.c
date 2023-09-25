@@ -8,7 +8,7 @@ void saludo2 (){
 }
 
 void bigChanges(){
-  printf("Grandes cambios en el codigo SINFALLOS");
+  printf("Grandes cambios en el codigo SIN FALLOS");
 }
 
 int
