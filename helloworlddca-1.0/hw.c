@@ -4,7 +4,7 @@
 #include <string.h>
 
 void saludo2 (){
-  printf("Funcion saludo con FALLOS");
+  printf("Funcion saludo SIN FALLOS");
 }
 
 int
