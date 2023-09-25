@@ -7,6 +7,10 @@ void saludo2 (){
   printf("Funcion saludo SIN FALLOS");
 }
 
+void bigChanges(){
+  printf("Grandes cambios en el codigo");
+}
+
 int
 main (int argc, char *argv[])
 {
