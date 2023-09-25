@@ -7,7 +7,7 @@ int
 main (int argc, char *argv[])
 {
   printf ("Hola Mundo\n");
-  
+  saludo2();
   return 0;
 }
 
