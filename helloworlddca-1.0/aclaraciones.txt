@@ -1,0 +1,12 @@
+PASOS SEGUIDOS:
+
+En primer lugar creacion de las dos ramas tanto en local como en remoto: ramas "master" y "estable".
+Despues el primer hola mundo subirlo a las dos ramas con la version "1.0.0" ya que en el caso de estable, es un codigo estable y en el caso de master es un codigo de partida para hacer el desarrollo.
+Ahora vamos a continuar con el desarrollo de la version 1.0.0, como estamos en la rama master, el número menor tiene que ser impar, añadimos entonces las versiones "1.1.x" siendo la x el número micro que lo vamos actualizando con cada arreglo de errores. (Estos errores son simulados, no necesariamente hay errores reales, por ejemplo cambio de la cadena "con errores" por "sin errores").
+Cuando hacemos todos los commits y tenemos la version "1.1.4" ya la vamos a subir a estable, pero como en estable solo se puede tener el numero menor como par, la subimos con el nuevo nombre de version "1.2.0".
+Una vez tenemos este codigo en estable, lo copiamos tal cual a master para seguir este procedimiento de nuevo.
+En mi caso he añadido un metodo que simula grandes cambios en el codigo, con lo cual el numero mayor cambia, y la version seria: "2.1.0" 2 por que he añadido ese metodo y el 1 por que estoy en la rama master y tiene que ser impar.
+Vuelvo a simular el arreglo de errores modificando el numero micro un par de veces, y la version final de master que se queda es: "2.1.2".
+Entonces lo subo a estable con la nueva version "2.2.0" volviendo a cambiar el numero menor a uno par por el cambio de rama. 
+Esta es la version final a falta de añadir este fichero aclaraciones.txt, voy a añadirlo en la rama estable modificando el numero micro unicamente.
+Entonces la version final es "2.2.1"
